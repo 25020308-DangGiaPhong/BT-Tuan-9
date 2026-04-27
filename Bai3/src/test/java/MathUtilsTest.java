@@ -9,6 +9,6 @@ public class MathUtilsTest {
         int result = math.add(5, 7);
         
         // Kiểm tra xem 5 + 7 có đúng bằng 12 không
-        assertEquals(999, result, "Phép cộng 5 + 7 phải cho ra kết quả là 12");
+        assertEquals(12, result, "Phép cộng 5 + 7 phải cho ra kết quả là 12");
     }
 }
